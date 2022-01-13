@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'NunitoSans';
+  src: local('NunitoSans'), url(./fonts/NunitoSans-Regular.ttf), format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-family: 'NunitoSans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  font-family: 'NunitoSans', sans-serif;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 298px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  width: 200px;
+  height: 290px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  height: 100%;
+  width: 210px;
+  object-fit: cover;
+  border: 1px solid rgb(228, 224, 224);
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #eaeaf7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0099CC;
+  border: 1px solid #0099CC;
+  border-radius: 20px;
+}

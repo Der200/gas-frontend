@@ -1,0 +1,155 @@
+.feature {
+  width: 30%;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+.header__box {
+  font-size: 30px;
+  line-height: 1;
+  text-align: center;
+  font-weight: 400;
+}
+
+.header__container {
+  font-size: 30px;
+  line-height: 1;
+  text-align: left;
+  font-weight: 400;
+}
+
+.text__box {
+  font-size: 22px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.text__container {
+  font-size: 25px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.privilege {
+  width: 20%;
+}
+
+.feedback__content {
+  margin: 0 auto;
+  padding-top: 30px;
+  flex-wrap: wrap; 
+  max-width: 1200px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feedback__btn {
+  background-color: rgba(223, 198, 87, 1);
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 5px;
+  height: 30px;
+  color: black;
+  border: 5px solid rgba(223, 198, 87, 0.9);
+  border-radius: 15px 0 15px 0;
+  transition: background-color 0.5s, border 0.5s;
+}
+
+.feedback__btn:hover {
+  background-color: rgb(241, 220, 122);
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 700;
+  height: 30px;
+  border: 5px solid rgb(241, 220, 122);
+  border-radius: 15px 0 15px 0;
+}
+
+.feedback_bg {
+  margin: 0;
+  top: 0;
+  position: absolute; 
+  width: 100%;
+  left: 0; 
+  height: 224px;
+  z-index: -1
+}
+
+.box__content {
+  justify-content: space-between;
+}
+
+.feature svg {
+  margin-left: 40%;
+}
+
+.privilege svg {
+  margin-left: 35%;
+}
+
+
+/*  */
+
+.section__header {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+@media(max-width: 830px) {
+  .header__container {
+    margin: 0;
+  }
+
+  .text__container {
+    margin-top: 10px;
+  }
+
+  .feedback__content {
+    justify-content: center;
+    margin-left: 20px;
+  }
+}
+
+@media(max-width: 720px) {
+  .feature {
+    width: 95%;
+  }
+
+  .privilege {
+    width: 95%;
+  }
+
+  .feature svg {
+    margin-left: 45%;
+  }
+  
+  .privilege svg {
+    margin-left: 45%;
+  }
+
+  .text__container {
+    font-size: 22px;
+  }
+}
+
+@media(max-width: 375px) {
+  .header__container {
+    font-size: 24px;
+  }
+
+  .text__container {
+    font-size: 18px;
+  }
+
+  .feature svg {
+    margin-left: 40%;
+  }
+  
+  .privilege svg {
+    margin-left: 40%;
+  }
+}

@@ -1,0 +1,204 @@
+.slogan__header,
+.slogan__description  {
+  color: rgb(251, 250, 252);
+  text-align: center;
+  margin: 0;
+}
+
+.slogan__header {
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 100px;
+}
+
+.slogan__description {
+  padding-top: 40px;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+/* Feature and statement pages */
+
+.feature__header {
+  font-size: 27px;
+  text-align: center;
+}
+
+.feature__description {
+  font-size: 18px;
+  
+  padding: 0 20px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.feature__description_block {
+  display: flex;
+}
+
+.feature__background_image {
+  width: 420px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.feature__link {
+  color: black;
+  transition: color 0.5s;
+}
+
+.feature__link:hover {
+  color: #0099CC;
+}
+
+.feedback__btn {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: rgba(223, 198, 87, 1);
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  padding: 5px;
+  height: 30px;
+  color: black;
+  border: 5px solid rgba(223, 198, 87, 0.9);
+  border-radius: 15px 0 15px 0;
+  transition: background-color 0.5s, border 0.5s;
+}
+
+.feedback__btn:hover {
+  background-color: rgb(241, 220, 122);
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 700;
+  height: 30px;
+  border: 5px solid rgb(241, 220, 122);
+  border-radius: 15px 0 15px 0;
+}
+
+/* Register and profile pages */
+.profile__box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.profile__field {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.profile__name_block {
+  width: 40%;
+}
+
+.profile__user_block {
+  width: 56%;
+  margin-top: 0; 
+  display: flex; 
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.profile__contact {
+  width: 48%;
+}
+
+.profile__address {
+  width: 100%;
+  height: 100%;
+  margin-top: 5px;
+}
+
+.profile__password {
+  width: 100%;
+}
+
+.profile__password_box {
+  width: 100%;
+  /* display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  flex-wrap: wrap; */
+}
+
+.profile__password_field {
+  width: 100%;
+}
+
+.statement__block {
+  width: 48%;
+}
+
+@media(max-width: 1030px) {
+  .slogan__header {
+    font-size: 40px;
+  }
+  .slogan__description {
+    display: none;
+  }
+}
+
+@media(max-width: 800px) {
+  .feature__background_image {
+    display: none;
+  }
+}
+
+@media(max-width: 645px) {
+  .profile__name_block {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .profile__user_block {
+    width: 100%;
+  }
+
+  .profile__address,
+  .profile__offer,
+  .profile__password {
+    margin-top: 15px;
+  }
+
+  .profile__password_box {
+    margin-top: 10px;
+  }
+}
+
+@media(max-width: 425px) {
+  .profile__contact {
+    width: 100%;
+  }
+
+  .profile__contact:first-child {
+    margin-bottom: 15px;
+  }
+
+  .profile__password_field {
+    width: 100%;
+  }
+
+  .profile__password_field:first-child {
+    margin-bottom: 15px;
+  }
+
+  .statement__block {
+    width: 100%;
+  }
+
+  .statement__block:first-child {
+    margin-bottom: 15px;
+  }
+}
+
+@media(max-width: 375px) {
+  .slogan__header {
+    font-size: 30px;
+  }
+}
